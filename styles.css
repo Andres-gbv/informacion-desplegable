@@ -46,12 +46,12 @@ h2{
     background-color: rgb(5, 137, 253);
 }
 
-.bloque1 .bloque2 .bloque3 .bloque4{
-position: absolute;
-width: 20%;
-height: 450px;
-transition: 1.5 all;
-
+.bloque1, .bloque2, .bloque3, .bloque4 {
+    position: absolute;
+    width: 20%;
+    height: 450px;
+    transition: all 1.5s ease;
+    cursor: pointer;
 }
 .crecer1{
     z-index: 1;
